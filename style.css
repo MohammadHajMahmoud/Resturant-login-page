@@ -101,9 +101,12 @@ h2{
     justify-content:space-around;
     
 }
-a{
-    
+@media  screen and (max-width : 600px) {
+.container1{
+    width: 80vw;
+}   
+img{
+    display: hidden;
 }
 
-    
-
+}
